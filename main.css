@@ -1,0 +1,295 @@
+/* ШРИФТЫ 
+font-family: 'Gotham Pro Regular';
+font-family: 'Lato', sans-serif;
+*/
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+
+@font-face {
+	font-family: 'Gotham Pro Regular';
+	src: url('GothamPro.eot');
+	src: url('GothamPro.eot?#iefix') format('embedded-opentype'),
+	url('GothamPro.woff') format('woff'),
+	url('GothamPro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background-image: url(../images/Background.jpg);
+	margin: 0 auto;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+}
+
+h1, div {
+	margin: 0;
+	padding: 0;
+}
+
+.content-wrapper {
+	margin: 0 auto;
+	max-width: 974px;
+	max-height: 768px;
+}
+
+.cold_block_1 {
+	width: 90px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.main_title {
+	font-size: 30px;
+	font-family: 'Gotham Pro Regular';
+	margin-left: 50px;
+	color: #fff;
+}
+
+span.number_yacheika_1, span.number_yacheika_2, span.number_betta,
+span.number_yacheika_3, span.number_yacheika_4, 
+span.number_yacheika_5, span.number_yacheika_6,
+span.number_yacheika_7, span.number_yacheika_8 {
+	font-size: 1.5em;
+	font-size: 36px;
+	color: #fff;
+}
+
+.other_title {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+.other_title1 {
+	text-align: center;
+}
+
+.other_title2 {
+	margin-left: 177px;
+	margin-top: -116px;
+}
+
+.other_title3 {
+	text-align: center;
+	margin-left: 442px;
+	margin-top: -55px;
+}
+
+.cold_block_2 {
+	width: 120px;
+	margin-left: 25px;
+	margin-top: 25px;
+	opacity: .4;
+}
+
+/*общее описание для кружков*/
+.round_numbers {
+ 	width: 3.6em;
+ 	height: 3.6em;
+ 	border: none;
+ 	border-radius: 50%;
+ 	line-height: 3.6em;
+	text-align: center;
+  	background: #3f427f;
+}
+
+/*для сдвига круга с двойкой*/
+.round_numbers.numb_2{
+	margin-left: 323px;
+	margin-top: -50px;
+}
+/*для сдвига круга с беттой*/
+.round_numbers.numb_betta {
+	margin: 0 auto;
+	margin-top: -57px;
+}
+
+span.number_betta {
+	font-size: 3.5em;
+}
+
+span.number_yacheika_4 {
+	margin-left: 37px;
+}
+
+.round_numbers.numb_3{
+	margin-left: auto;
+	margin-right: 323px;
+	margin-top: -57px;
+}
+
+.strela {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 4px;
+	margin-left: 350px;
+}
+
+.strela__copy2 {
+	margin-left: 130px;
+}
+
+.strela__copy3 {
+	margin-left: 130px;
+	z-index: -1;
+}
+
+.other_title4 {
+	margin-top: 37px;
+	margin-left: 146px;
+}
+
+.pochki_moove {
+	margin-right: 10px;
+	padding-top: 2px;
+}
+
+.round_pochki_moove {
+	margin-left: 218px;
+	margin-top: -70px;
+}
+
+.strela2 {
+	margin-left: 275px;
+	margin-top: -38px;
+}
+
+.square_disease {
+	text-align: center;
+	margin: 0 auto;
+	width: 180px;
+	border: solid #fff 1px;
+	margin-top: -79px;
+	padding: 48px 87px;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color:  #fff;
+}
+
+.strela3 {
+	width: 40px;
+	margin-left: auto;
+	margin-right: 270px;
+	margin-top: -68px;
+}
+
+.other_title5 {
+	text-align: right;
+	margin-right: 117px;
+	margin-top: -54px;
+}
+
+.number_yacheika_5 {
+	margin-right: 69px;
+}
+
+.lipid_moove, .brain_moove, .musle_moove {
+	padding-top: 7px;
+}
+
+.pechen_moove {
+	padding-top: 10px;
+}
+
+.round_lipid_moove {
+	width: 60px;
+	margin-left: auto;
+	margin-right: 214px;
+	margin-top: -38px;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-top: -115px;
+	margin-bottom: 60px;
+}
+
+.navigation img {
+	margin-top: 6px;
+	margin-left: auto;
+}
+
+.strela_up_moove {
+	margin-top: -11px;
+}
+
+.round_flex {
+	display: flex;
+	align-items: center;
+	width: 326px;
+	margin: 0 auto;
+	justify-content: space-between;
+	margin-top: -3px;
+}
+
+.other_title_flex {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.other_title6 {
+	padding-left: 20px;
+}
+
+.other_title7 {
+	padding-right: 8px;
+}
+
+.other_title8 {
+	padding-right: 30px;
+}
+
+.cold_block_3 {
+	width: 181px;
+	margin-left: auto;
+	margin-right: -100px;
+	margin-top: -42px;
+	opacity: .5; 
+}
+
+.polosa {
+	width: 639px;
+	margin: 0 auto;
+	margin-top: -90px;
+}
+
+.poly {
+	text-align: center;
+	margin-top: -42px;
+}
+
+.white__polosa {
+	text-align: center;
+	margin-top: -20px;
+	margin-right: 320px;
+
+}
+
+.years_date {
+	display: flex;
+	justify-content: space-between;
+	width: 648px;
+	margin-top: 10px;
+	font-family: 'Gotham Pro Regular';
+	font-size: 20px;
+	color: #fff;
+	margin: 0 auto;
+}
+
+
+
+
+
+}
